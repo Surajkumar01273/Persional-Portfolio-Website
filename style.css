@@ -316,6 +316,12 @@ nav .fa-solid{
     .education span{
         display: none;
     }
+    .about-col-1 img{
+        image-resolution: 200%;
+    }
+    #portfolio{
+        margin-left: 100px;
+    }
 }
 
 
