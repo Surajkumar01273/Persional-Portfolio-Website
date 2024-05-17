@@ -14,19 +14,20 @@
                 <div class="logo">
                     <h1>MERN STACK</h1>
                 </div> 
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#">Service</a></li> -->
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Project</a></li>
                     <li><a href="#contact-me">Contact us</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" oncanplay="openmenu()"></i>
             </nav>
            
             <div class="heder-text">
                 <div class="header-pic">
                     <p>Web Designer | Web Developer</p>
-                <h2>Hi I'M <span>Suraj Kumar</span> <br> From India</h2>
+                    <h2>Hi I'M <span>Suraj Kumar</span> <br> From India</h2>
                 </div>
                 <div class="pic">
                     <img src="images/profile-pic.png" alt="">
@@ -91,10 +92,10 @@
 
     <div id="portfolio">
         <div class="container">
-            <h2 class="sub-title">My Work</h2>
+            <h2 class="sub-title">My Project</h2>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
+                    <img src="images/front-end-pic.png" alt="">
                     <div class="layer">
                         <h3>Modern Front-End Website</h3>
                         <p>It is practice front-end project this front-end project basically define which type
@@ -104,16 +105,16 @@
                 </div>
 
                 <div class="work">
-                    <img src="images/work-2.png" alt="">
+                    <img src="images/portfolio-pic.png" alt="">
                     <div class="layer">
                         <h3>Persional Portfolio Website</h3>
                         <p>It is my portfolio website in this web site explain self learning exprience and about self</p>
-                        <a href="https://github.com/Surajkumar01273/Persional-Portfolio-Website"><i class="fa-solid fa-link"></i>click</a>
+                        <a href="https://surajkumar01273.github.io/Persional-Portfolio-Website/"><i class="fa-solid fa-link"></i>click</a>
                     </div> 
                 </div>
 
                 <div class="work">
-                    <img src="images/work-3.png" alt="">
+                    <img src="images/password-pic.jpg" alt="">
                     <div class="layer">
                         <h3>Password Generater web app</h3>
                         <p>It is a automatic password generate web app in this web app every click to generate new password </p>
@@ -121,7 +122,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png" alt="">
+                    <img src="images/basic-calculaater-pic.png" alt="">
                     <div class="layer">
                         <h3>Basic Calculater</h3>
                         <p>It is a basic Javascript and HTML Calculater project in this project perform basic mathematical calculation  </p>
@@ -129,7 +130,7 @@
                     </div> 
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png" alt="">
+                    <img src="images/EMI-pic.png" alt="">
                     <div class="layer">
                         <h3>EMI Calculate Project</h3>
                         <p>It is the basic EMI calculater project this project to use calculate EMI</p>
@@ -179,11 +180,24 @@
                         <a href="https://x.com/surajku44630981?t=7WKQA6QRFKL2QpZcSYra9A&s=08"><i class="fa-brands fa-x-twitter"></i> Twiter</a>
                         <a href="https://www.facebook.com/profile.php?id=100018256650822&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i> Facebook</a>
                         <a href="https://www.instagram.com/p/CsqMXV7SILM/?igsh=NzRjNXNhenV6eWg="><i class="fa-brands fa-instagram"></i> Instagram</a>
-                    </div>
+                        <a href="images/My-CV.pdf" downlod class="btn btn2">Downlod CV</a>
+                    </div>                    
                 </div>
         
 
 
     <script src="portfolio.js"></script> 
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "200";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
 </body>
 </html>
