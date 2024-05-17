@@ -276,8 +276,8 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     
     .heder-text{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         width: 250px;
         height: 300px;
         margin-left: 5px;
