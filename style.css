@@ -281,14 +281,17 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     
     .heder-text{
-        display: inline-block;
-        width: 250px;
+        display: flex;
+        /* width: 250px; */
         height: 300px;
-        margin-left: 5px;
+        margin: 50px;
         font-size: 16px;
         font-weight: 400;
-        padding: 4px;
+        /* padding: 4px; */
     }
+    /* .pic img{
+
+    } */
    
     .header-text h2{
         font-size: 15px;
