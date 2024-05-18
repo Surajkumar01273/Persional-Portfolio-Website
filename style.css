@@ -289,6 +289,9 @@ nav .fa-solid{
         font-weight: 400;
         padding: 5px;
     }
+    .header-pic{
+        margin-left: 10px;
+    }
     .pic img{
         height: 300px;
         width: 200px;
@@ -332,7 +335,10 @@ nav .fa-solid{
         margin-left: 100px;
     }
     #about{
-        margin-top: 15px;
+        margin-top: 0px;
+    }
+    #header{
+        margin-bottom: 0;
     }
 }
 
