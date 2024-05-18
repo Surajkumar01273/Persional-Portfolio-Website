@@ -287,11 +287,13 @@ nav .fa-solid{
         margin: 50px;
         font-size: 16px;
         font-weight: 400;
-        /* padding: 4px; */
+        padding: 5px;
     }
-    /* .pic img{
-
-    } */
+    .pic img{
+        height: 300px;
+        width: 200px;
+        margin-right: 50px;
+    }
    
     .header-text h2{
         font-size: 15px;
